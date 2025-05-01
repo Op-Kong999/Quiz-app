@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="JS/jquery-3.7.1.js"></script>
+    <script src="JS/script.js"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz App</h1>
+        <form id="quiz-form">
+            <div class="question-block">
+                <p class="question">1. What does HTML stand for?</p>
+                <label><input type="radio" name="q1" value="0"> Hyper Text Markup Language</label><br>
+                <label><input type="radio" name="q1" value="1"> Home Tool Markup Language</label><br>
+                <label><input type="radio" name="q1" value="2"> Hyperlinks and Text Markup Language</label>
+            </div>
+
+            <div class="question-block">
+                <p class="question">2. Which language is used for styling web pages?</p>
+                <label><input type="radio" name="q2" value="0"> HTML</label><br>
+                <label><input type="radio" name="q2" value="1"> jQuery</label><br>
+                <label><input type="radio" name="q2" value="2"> CSS</label>
+            </div>
+
+            <div class="question-block">
+                <p class="question">3. Which is not a JavaScript framework?</p>
+                <label><input type="radio" name="q3" value="0"> Python Script</label><br>
+                <label><input type="radio" name="q3" value="1"> jQuery</label><br>
+                <label><input type="radio" name="q3" value="2"> Django</label>
+            </div>
+
+            <div class="question-block">
+                <p class="question">4. Which is used for web development?</p>
+                <label><input type="radio" name="q4" value="0"> PHP</label><br>
+                <label><input type="radio" name="q4" value="1"> Python</label><br>
+                <label><input type="radio" name="q4" value="2"> Both</label>
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
